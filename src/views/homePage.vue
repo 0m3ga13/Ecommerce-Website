@@ -16,7 +16,7 @@
                             <p class="mt-2 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
                                 facere provident molestias ipsam sint voluptatum pariatur.</p>
                             <router-link to="/shop"
-                                class="flex items-center mt-4 px-3 py-2 bg-purple-800/50 text-white text-sm uppercase font-medium rounded-md text-center hover:bg-purple-500 focus:outline-none focus:bg-purple-500 sm:w-2/5">
+                                class="flex items-center mt-4 px-3 py-2 bg-purple-800 sm:bg-purple-800/50 text-white text-sm uppercase font-medium rounded-md text-center hover:bg-purple-500 focus:outline-none focus:bg-purple-500 sm:w-2/5">
                                 <span>Shop Now</span>
                                 <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
