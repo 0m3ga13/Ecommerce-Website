@@ -1,6 +1,6 @@
 <template>
-  <footer class="fixed sticky bottom-0 dark:bg-black bg-white dark:text-gray-200 text-gray-600 body-font">
-  <div class="container p-2 mx-auto flex items-center sm:flex-row flex-col">
+
+  <div class="absolute sticky bottom-0 dark:bg-black bg-white dark:text-gray-200 text-gray-600 body-font container p-2 mx-auto flex items-center sm:flex-row flex-col">
     <router-link to="/" class="flex flex-shrink-0 items-center">
               <img class="block h-8 w-auto lg:hidden" src="../assets/logo.png" alt="Your Company" />
               <img class="hidden h-8 w-auto lg:block" src="../assets/logo.png" alt="Your Company" />
@@ -33,7 +33,6 @@
       </a>
     </span>
   </div>
-</footer>  
 </template>
 
 <script setup>
