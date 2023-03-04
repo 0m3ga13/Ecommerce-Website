@@ -5,7 +5,7 @@ dark mode is implemented using tailwind.
 
 ## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+check [The Project](https://masterpurple.netlify.app/).
 
 ## Project Setup
 
