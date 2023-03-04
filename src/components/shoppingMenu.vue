@@ -1,6 +1,6 @@
 <template>
-    <div class="fixed inset-0 overflow-hidden z-10" v-if="showShoppingMenu">
-        <div class="absolute inset-0 overflow-hidden r">
+    <div class="fixed inset-0 overflow-hidden z-20" v-if="showShoppingMenu">
+        <div class="absolute inset-0 overflow-hidden">
             <!-- Background overlay, show/hide based on slide-over state. -->
             <div class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
 
