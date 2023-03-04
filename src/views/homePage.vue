@@ -1,13 +1,6 @@
 <template>
-    <!-- tailwind.config.js -->
-
-
-    <!-- component -->
-
-    <div  class="dark:bg-black bg-white p-5">
-
-        <main>
-            <div class="container mx-auto px-6">
+  
+            <div class="dark:bg-black  p-5 overflow-auto dark:bg-black dark:tex-gray-90 ">
                 <div class="h-64 rounded-md overflow-hidden bg-cover bg-center"
                     style="background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=144')">
                     <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
@@ -145,10 +138,7 @@
                 </div>
                 
             </div>
-        </main>
-
-
-    </div>
+  
 </template>
 
 
