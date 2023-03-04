@@ -40,7 +40,15 @@ const router = createRouter({
          name: '404',
       component: error
       },
-  ]
+  ],
+scrollBehavior (to, from, savedPosition) {
+  if (to.hash) {
+    return {
+      selector: to.hash,
+      behavior: 'smooth',
+    }
+  }
+}
 })
 
 export default router
