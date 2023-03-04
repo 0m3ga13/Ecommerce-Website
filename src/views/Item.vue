@@ -1,5 +1,5 @@
 <template>
-    <section class=" flex items-center sm:overflow-hidden h-screen dark:bg-black dark:text-white text-gray-600 body-font ">
+    <section class=" relative items-center sm:overflow-hidden h-screen dark:bg-black dark:text-white text-gray-600 body-font ">
         <div class="container absolute inset-0 px-5 py-5 sm:py-24 mx-auto ">
             <div class="lg:w-4/5 mx-auto flex flex-wrap  ">
                 <swiper :modules="modules" navigation :scrollbar="{ draggable: true }"
