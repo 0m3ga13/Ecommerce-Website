@@ -8,15 +8,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.11",
+     "@headlessui/vue": "^1.7.11",
     "@heroicons/vue": "^2.0.16",
     "@vueuse/core": "^9.13.0",
+    "array-includes-polyfill": "^0.7.2",
+    "es6-map": "^0.1.5",
     "es6-promise": "^4.2.8",
+    "es6-set": "^0.1.6",
     "jquery": "^3.6.3",
+    "object-assign": "^4.1.1",
     "select2": "^4.1.0-rc.0",
     "swiper": "^9.1.0",
     "vue": "^3.2.47",
-    "vue-router": "^4.1.6"
+    "vue-content-loader": "^2.0.1",
+    "vue-lazyload": "^3.0.0-rc.2",
+    "vue-router": "^4.1.6",
+    "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
