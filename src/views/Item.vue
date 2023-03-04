@@ -1,11 +1,11 @@
 <template>
-    <section class=" relative items-center sm:overflow-hidden h-screen dark:bg-black dark:text-white text-gray-600 body-font ">
-        <div class="container relative inset-0 px-5 py-5 sm:py-24 mx-auto ">
+
+        <div class="container px-5 sm:py-24 py-10 mx-auto  dark:bg-black dark:text-white text-gray-600 body-font ">
             <div class="lg:w-4/5 mx-auto flex flex-wrap  ">
                 <swiper :modules="modules" navigation :scrollbar="{ draggable: true }"
                     class="mySwiper lg:w-1/2 w-full lg:h-auto h-80 object-scale-down object-center rounded">
                     <swiper-slide v-for="item in images" >
-                        <img   className="object-fill w-full h-96" :src=item.imagesrc
+                        <img   className="object-fill w-full h-full" :src=item.imagesrc
                             alt="image slide 1" />
                     </swiper-slide>
                     
@@ -86,21 +86,18 @@
                     <div class="flex">
                         <span class="title-font font-medium text-2xl dark:text-gray-100 text-gray-900">{{ item.price }}</span>
                         <button
-                            class="flex ml-auto text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded">Button</button>
+                            class="flex ml-auto text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded">Buy Now</button>
                         <button
                             class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 class="w-5 h-5" viewBox="0 0 24 24">
-                                <path
-                                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
-                                </path>
+                                <path d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"/>
                             </svg>
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 </template>
 
 
