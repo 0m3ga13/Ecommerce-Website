@@ -8,11 +8,11 @@ import Footer from './components/footer.vue';
 <template >
     
   
-    <div class="wrapper scroll-smooth">
+    <div class="wrapper dark:bg-black scroll-smooth">
 
 <Navbar/>
   <router-view  v-slot="{ Component }">
-    <transition name="fade">
+    <transition name="fade" mode="out-in">
       <component :is="Component" />
     </transition>
   </router-view>
@@ -25,13 +25,10 @@ import Footer from './components/footer.vue';
 </template>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .4s;
 }
-
-.fade-enter-from,
-.fade-leave-to {
+.fade-enter, .fade-leave-to {
   opacity: 0;
 }
 
