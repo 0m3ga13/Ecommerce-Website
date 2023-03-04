@@ -1,4 +1,4 @@
-# ElectroShop
+# Ecommerce Website 
 a responsive ecommerce website, with cool themes and design, 
 dark mode is implemented using tailwind.
 
