@@ -1,6 +1,6 @@
 <template>
-    <section class=" relative justify-center  h-screen dark:bg-black dark:text-white text-gray-600 body-font ">
-        <div class="container absolute inset-0 px-5 py-5 mx-auto ">
+    <section class=" flex items-center sm:overflow-hidden h-screen dark:bg-black dark:text-white text-gray-600 body-font ">
+        <div class="container absolute inset-0 px-5 py-5 sm:py-24 mx-auto ">
             <div class="lg:w-4/5 mx-auto flex flex-wrap  ">
                 <swiper :modules="modules" navigation :scrollbar="{ draggable: true }"
                     class="mySwiper lg:w-1/2 w-full lg:h-auto h-80 object-scale-down object-center rounded">
