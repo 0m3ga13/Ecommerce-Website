@@ -36,12 +36,13 @@
     </div>
  
 
-    <DisclosurePanel as="nav" v-slot="{ open }" class="sm:hidden ">
+    <DisclosurePanel v-slot="{ close }" class="sm:hidden ">
       <div class="space-y-1 px-2 pt-2 pb-3">
-        <router-link v-for="item in navigation" :key="item.name" as="a" :to="item.href"
+      
+        <router-link     v-for="item in navigation" :key="item.name" as="a" :to="item.href"
           class='text-gray-900 hover:bg-gray-700 hover:text-white dark:text-white block rounded-md px-3 py-2 text-base font-medium'
           :class="{ 'bg-gray-800': $route.path === item.href, 'text-white': $route.path === item.href }">
-          <DisclosureButton> {{ item.name }}</DisclosureButton>
+           <DisclosureButton @click="close" > {{ item.name }}</DisclosureButton>
         </router-link>
       </div>
     </DisclosurePanel>
